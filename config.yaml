@@ -1,4 +1,4 @@
-baseURL: https://Madera971003.github.io/portafolio-personal/
+baseURL: https://portafolio-personal/
 
 languageCode: en-us
 title: "Abisai Antonio Madera"
@@ -52,9 +52,9 @@ params:
     # favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  # gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/Madera971003/portafolio-personal/
   # Default branch of your Git repo
-  gitBranch: source
+  gitBranch: master
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
@@ -95,7 +95,7 @@ params:
     comment:
       enable: false
       disqus:
-        shortName: toha-example-site
+        shortName: Madera's Portfolio
       # valine:
       #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
       #   appKey: pVrT3C85KGIuk27t07eh6bUC
@@ -125,11 +125,11 @@ params:
       #   hideDeleted: false
 
     # Enable Analytics
-    analytics:
-      enabled: true
-      # Google Analytics
-      google:
-        id: G-H4LBG7NDFZ
+    # analytics:
+    #   enabled: true
+    #   # Google Analytics
+    #   google:
+    #     id: G-H4LBG7NDFZ
       # # CounterDev
       # counterDev:
       #   id: <your counterdev id>
@@ -177,10 +177,10 @@ params:
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
-    newsletter:
-      enable: false
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+    # newsletter:
+    #   enable: false
+    #   provider: mailchimp
+    #   mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
