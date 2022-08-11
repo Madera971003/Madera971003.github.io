@@ -1,4 +1,4 @@
-baseURL: https://portafolio-personal/
+baseURL: https://Madera971003.github.io/
 
 languageCode: en-us
 title: "Abisai Antonio Madera"
@@ -52,7 +52,7 @@ params:
     # favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/Madera971003/portafolio-personal/
+  gitRepo: https://github.com/Madera971003/Madera971003.github.io/
   # Default branch of your Git repo
   gitBranch: master
 
