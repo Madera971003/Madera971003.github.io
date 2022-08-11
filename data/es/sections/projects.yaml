@@ -1,0 +1,74 @@
+# section information
+section:
+  name: Proyectos
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Todos
+  filter: "all"
+- name: Profesional
+  filter: "Profesional"
+- name: Académicos
+  filter: "Académico"
+- name: Pasatiempos
+  filter: "Pasatiempo"
+
+# your projects
+projects:
+- name: Pokedex
+  logo: /images/sections/projects/pokemon.png
+  role: Dueño
+  timeline: "May 2022 - Present"
+  # repo: https://github.com/Madera971003/Pokedex-Pokemon-React # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://madera971003.github.io/Pokedex-Pokemon-React/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Proyecto práctico usando React, para mostrar pequeñas informaciones sobre cada Pokémon.
+  tags: ["Pasatiempo", "React", "JavaScript", "TypeScript"]
+
+- name: ToDo Machine
+  logo: /images/sections/projects/notas.png
+  role: Dueño
+  timeline: "May 2022 - Present"
+  repo: https://github.com/Madera971003/To-Do-React
+  #url: ""
+  summary: Este proyecto consiste en proporcionar al usuario administración de sus tareas a realizar.
+  tags: ["Pasatiempo", "React", "JavaScript"]
+
+- name: Cálculo de distancia con visión artificial
+  logo: /images/sections/projects/python.png
+  role: Dueño
+  timeline: "Feb 2021 - Ago 2021"
+  repo: https://github.com/Madera971003/Distancia_Hough
+  # url: "https://www.example.com"
+  summary: Cálculo de distancia en centímetros con visión artificial basado en un algoritmo de la transformada de Hough.
+  tags: ["Académico", "Profesional", "Python", "RasberryPi"]
+
+- name: Guía para usar Git y GitHub
+  logo: /images/sections/projects/Git.png
+  role: Dueño
+  timeline: "Jul 2019 - Ago 2019"
+  # repo: https://github.com/kelseyhightower/nocode
+  url: "https://madera971003.github.io/aprendiendo_a_usar_git/"
+  summary: Una guía excelente para los primeros pasos a la utilización de Git y GitHub.
+  tags: ["Profesional", "Git", "GitHub"]
+
+- name: Blog de currículum
+  logo: /images/sections/projects/blog.png
+  role: Dueño
+  timeline: "Ago 2022 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  summary: Portafólio Profesional personal
+  tags: ["Profesional","Hugo"]
+
+- name: Uso de archivos .csv
+  logo: /images/sections/projects/csv.png
+  role: Dueño
+  timeline: "Ago 2022 - Present"
+  repo: https://github.com/Madera971003/control-de-archivo-con-python
+  summary: Con este código se muestra como se puede almacenar datos en un archivo .csv con Python
+  tags: ["Profesional","Académico", "Python", ".csv"]

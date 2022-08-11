@@ -1,0 +1,99 @@
+# section information
+section:
+  name: Educación
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ingeniero en Mecatrónica
+  icon: fa-graduation-cap
+  timeframe: 2015-2021
+  institution:
+    name: Universidad Tecnológica de la Mixteca
+    url: "https://www.utm.mx/"
+  grade: #(optional)
+    # scale: CGPA
+    # achieved: 3.6
+    # outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+
+- name: Desarrollador Web
+  icon: fa-school
+  timeframe: 2021
+  institution:
+    name: 'Escuela de desarrollo Web: Platzi'
+    url: "https://platzi.com"
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.5
+  #   outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 5
+    courses:
+    - name: HTML y CSS
+    - name: Animaciones con CSS
+    - name: React JS
+    - name: React Hooks
+    - name: JavaScript
+    - name: Consumo de APIs con JavaScript
+    - name: TypeScript
+    - name: EcmaScript
+    - name: Next.js
+    - name: Unit Testing con Jest en React
+    - name: MongoDB
+    - name: Git y GitHub profesional
+      # achieved: 3.75
+      # outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+
+- name: Científico de Datos
+  icon: fa-school
+  timeframe: 2021
+  institution:
+    name: 'Escuela de Ciencia de Datos: Platzi'
+    url: "https://platzi.com"
+  # grade: #(optional)
+  #   scale: GPA
+  #   achieved: 5
+  #   outOf: 5
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 5
+    courses:
+    - name: Python profesional
+    - name: Regresión Lineal con Python y scikit-learn
+    - name: MySQL
+    - name: PostgreSQL
+    - name: Máquinas Virtuales con Google Cloud Platform
+    - name: Manipulación y Análisis de Datos con Pandas y Python
+    - name: Fundamentos Prácticos de Machine Learning
+    - name: Ciencia de Datos con Jupyter Notebooks y Anaconda
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+

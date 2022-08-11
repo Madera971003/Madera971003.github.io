@@ -1,0 +1,20 @@
+# some information about you
+name: "Abisai Antonio Madera"
+nickname: "Abisai"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hola, soy"
+image: "images/author/Abi.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "MaderaHLN@hotmail.com"
+  phone: "+52 (994)1067590"
+  github: Madera971003
+  linkedin: Madera03
+
+# some summary about what you do
+summary:
+  - Soy un Desarrollador en React
+  - Me encanta la programación
+  - Trabajo muy bien en equipo
+  - Me encanta trabajar en proyectos interesantes
+  - Me gusta aprender cosas nuevas

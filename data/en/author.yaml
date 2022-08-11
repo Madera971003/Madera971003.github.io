@@ -1,0 +1,20 @@
+# some information about you
+name: "Abisai Antonio Madera"
+nickname: "Abisai"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/Abi.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "MaderaHLN@hotmail.com"
+  phone: "+52 (994)1067590"
+  github: Madera971003
+  linkedin: Madera03
+
+# some summary about what you do
+summary:
+  - I am a React Developer
+  - I love programming
+  - I work well with a team
+  - I love to work with some fun projects
+  - I love to learn new things

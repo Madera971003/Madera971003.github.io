@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: React
+  logo: /images/sections/skills/react.png
+  summary: "With this framework I have managed to improve the structure of a project, controlling a good rendering of components in the DOM, using the hooks that it includes or implementing new and specific ones for specific cases."
+  url: "https://es.reactjs.org/"
+
+- name: JavaScript
+  logo: /images/sections/skills/javascript.png
+  summary: "I dominate this language achieving a better optimization and code reduction. Likewise, keep the code well structured and understandable to the human."
+  url: "https://developer.mozilla.org/es/docs/Web/JavaScript"
+
+- name: TypeScript
+  logo: /images/sections/skills/typescript.png
+  summary: "With this language, I have achieved to reduce the number of possible bugs typing correctly the variables and functions that are used in the project."
+  url: 'https://www.typescriptlang.org/'
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Python has been a great tool with which I have developed data cleaning, structuring and analysis. On the other hand, I have implemented Machine Learning tests and decision trees"
+  url: "https://www.python.org/"
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.png
+  summary: "I am good at applying CRUD method in a relational database, knowing the concepts of Entity-Relationship diagrams."
+  url: "https://www.mysql.com/"
+
+- name: PosgreSQL
+  logo: /images/sections/skills/postgresql.png
+  summary: "With this tool, I can apply the CRUD methodology in the DB. In addition, with the queries I have managed to extract specific data, create functions or make triggers for greater efficiency."
+  url: 'https://www.postgresql.org/'
+
+- name: MongoDB
+  logo: /images/sections/skills/mongodb.png
+  summary: "Although it is a tool to create non-relational databases, I understand the importance of good data structuring."
+  url: 'https://www.mongodb.com/'
+
+- name: Jest
+  logo: /images/sections/skills/jest.png
+  summary: "I have experience in verifying the correct operation of Functions and Components, implementing necessary mocks for styles, functions or for some libraries (such as Redux, Router, Next)"
+  url: 'https://jestjs.io/'
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "I have experience for the correct handling of version control of a project and how to collaborate with a team. In addition, I have experience using GitHub and GitLab platforms."
+  url: "https://git-scm.com/"

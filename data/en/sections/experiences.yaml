@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 'ZionSoft'
+    # url: "https://kata.com.mx/"
+    location: Mexico
+    overview: Company dedicated to software development
+  positions:
+  - designation: Frontend Developer
+    start: May 2022
+    # end: Ago 2022
+    responsibilities:
+    - Refactor and modify functional components of web pages
+    - Realize debug
+    - Provide solutions to errors found
+    - Creation of Unit Test to functions and components to avoid future errors
+    - Manage version control using Git for each solution.
+    - Communication with the work team for a better result
+    
+- company:
+    name: Technological University of the Mixteca
+    # url: "https://www.example.com"
+    location: Mexico
+    # company overview
+    overview: I worked on the creation of an artificial vision application, using a RasberryPi card, programming in Python language and using CV2, Numpy and Pandas libraries. The objective of this project was to calculate the distance, in centimeters, between the centers of two circular objects. Subsequently, use it in a based control system to stabilize a spherical object.
+  positions:
+  - designation: 'Software Developer: Project Intern'
+    start: Feb 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Ago 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design the structure to place the camera and the RasberryPi card
+    - Build code logic
+    - Realize tests
+    - Share the code to the next work team
+
+- company:
+    name: 'KATA: Solar Energy and Business Development'
+    url: "https://kata.com.mx/"
+    location: México
+    overview: Company specialized in calculating, designing, managing and executing autonomous photovoltaic solutions and interconnection to CFE (electricity provider company in Mexico).
+  positions:
+  - designation: 'Software Developer: Internship Trainee'
+    start: Jun 2019
+    end: Sep 2019
+    responsibilities:
+    - Acquisition and enforcementing of skills in Python, web development, Database, git and solar energy.
+    - Develop prototype structures for solar panels in SolidWorks®
+

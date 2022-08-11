@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Tecnologías
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: React
+  logo: /images/sections/skills/react.png
+  summary: "Con esta herramienta he logrado mejorar la estructura de un proyecto, controlando un buen renderizado de componentes en el DOM
+   al usar los hooks que este incluye o implentando nuevos y específicos para casos especiales."
+  url: "https://es.reactjs.org/"
+
+- name: JavaScript
+  logo: /images/sections/skills/javascript.png
+  summary: "Domino este lenguaje logrando una mejor optimización y reducción de código; así mismo, como mantener el código bien estructurado para que sea entendible al ser humano."
+  url: "https://developer.mozilla.org/es/docs/Web/JavaScript"
+
+- name: TypeScript
+  logo: /images/sections/skills/typescript.png
+  summary: "Con este lenguaje, he logrado reducir la cantidad de bugs posibles al tipar de forma correcta las variables y funciones que se utilizan en el desarrollo
+   del proyecto."
+  url: 'https://www.typescriptlang.org/'
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Python ha sido una gran herramienta con la cual he desarrollado limpieza, estructuración y análisis de datos.
+   Por otro lado, he implementado pruebas de Machine Learning y árboles de desición"
+  url: "https://www.python.org/"
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.png
+  summary: "Soy bueno en aplicar CRUD en una base de datos relacional, conociendo los conceptos de los diagramas Entidad-Relación."
+  url: "https://www.mysql.com/"
+
+- name: PosgreSQL
+  logo: /images/sections/skills/postgresql.png
+  summary: "AL igual que MySQL, puedo aplicar la metodología CRUD en la BD.
+   Además, con ayuda de las queries he logrado extraer datos específicos, crear funciones o triggers para mayor eficiencia"
+  url: 'https://www.postgresql.org/'
+
+- name: MongoDB
+  logo: /images/sections/skills/mongodb.png
+  summary: "A pesar de ser una herramienta para crear BD no relacionales entiendo la importancia de la buena estructuración de datos.
+   Así mismo, conozco como configurar y crear una BD desde la plataforma oficial o  desde MongoDBCompass."
+  url: 'https://www.mongodb.com/'
+
+- name: Jest
+  logo: /images/sections/skills/jest.png
+  summary: "Cuento con experiencia en verificar funcionamiento correcto de Funciones y Componentes, implementando mocks necesarios para estilos, funciones o el uso de librerías extras (como Redux, Router, Next)"
+  url: 'https://jestjs.io/'
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Cuento con experiencia para el manejo correcto de control de versiones de un proyecto y cómo colaborar en equipo.
+   Además, cuento con experiencia en usar las plataformas de GitHub y GitLab"
+  url: "https://git-scm.com/"
+

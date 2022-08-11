@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Experiencia
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 'ZionSoft'
+    # url: "https://kata.com.mx/"
+    location: México
+    overview: Empresa dedicada al desarrollo de software
+  positions:
+  - designation: Frontend Developer
+    start: May 2022
+    # end: Ago 2022
+    responsibilities:
+    - Refactorizar y modificar componentes funcionales de las páginas web
+    - Realizar Debugging
+    - Proveer soluciones a errores encontrados
+    - Creación de Unit Test a funciones y componentes para evitar errores futuros
+    - Administrar el control de versiones usando Git para cada solución implementada
+    - Comunicación con el equipo de trabajo para un mejor resultado
+    
+- company:
+    name: Universidad Tecnológica de la Mixteca
+    # url: "https://www.example.com"
+    location: México
+    # company overview
+    overview: Trabajé en la creación de una aplicación de visión artificial, utilizando una tarjeta RasberryPi, programando en el lenguaje Python y
+      usando las librerías de CV2, Numpy y Pandas. El objetivo de este proyecto, era calcular la distancia en centímetros, entre los centros de dos objetos circulares.
+      Posteriormente, usarlo en un sistema de control basado es estabilizar un objeto esférico.
+  positions:
+  - designation: 'Desarrollador de Software: Servicio Social'
+    start: Feb 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Ago 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Diseñar la estructura para colocar la cámara y la tarjeta RasberryPi
+    - Construir la lógica del código
+    - Realizar Pruebas
+    - Compartir el código al siguiente equipo de trabajo
+
+- company:
+    name: 'KATA: Energía Solar y Desarrollo Empresarial'
+    url: "https://kata.com.mx/"
+    location: México
+    overview: Empresa especializada en calcular, diseñar, administrar y ejecutar soluciones fotovoltaicas autónomas y de interconexión a CFE (empresa proveedora de energía eléctrica en México).
+  positions:
+  - designation: 'Desarrollador de Software: Estancia Profesional'
+    start: Jun 2019
+    end: Sep 2019
+    responsibilities:
+    - Adquisición y aplicación de habilidades en Python, desarrollo web, Base de Datos, git
+      y energía solar.
+    - Desarrollar prototipos de estructuras para páneles solares en SolidWorks®
+
