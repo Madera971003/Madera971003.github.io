@@ -34,8 +34,8 @@ projects:
   logo: /images/sections/projects/notas.png
   role: Dueño
   timeline: "May 2022 - Present"
-  repo: https://github.com/Madera971003/To-Do-React
-  #url: ""
+  # repo: https://github.com/Madera971003/To-Do-React
+  url: "https://madera971003.github.io/To-Do-React/"
   summary: Este proyecto consiste en proporcionar al usuario administración de sus tareas a realizar.
   tags: ["Pasatiempo", "React", "JavaScript"]
 
@@ -57,6 +57,14 @@ projects:
   summary: Una guía excelente para los primeros pasos a la utilización de Git y GitHub.
   tags: ["Profesional", "Git", "GitHub"]
 
+- name: Unit Test a proyecto de Platzi Store
+  logo: /images/sections/projects/platzi.png
+  role: Contribuyente
+  timeline: "Jul 2022"
+  repo: https://github.com/Madera971003/unit-test-jest-platzi-store
+  summary: En este proyecto, apliqué conocimientos de Testing a componentes creando algunos mocks y snapshots.
+  tags: ["Profesional","Pasatiempo", "React", "Jest"]
+  
 - name: Blog de currículum
   logo: /images/sections/projects/blog.png
   role: Dueño
@@ -72,3 +80,4 @@ projects:
   repo: https://github.com/Madera971003/control-de-archivo-con-python
   summary: Con este código se muestra como se puede almacenar datos en un archivo .csv con Python
   tags: ["Profesional","Académico", "Python", ".csv"]
+

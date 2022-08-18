@@ -34,8 +34,8 @@ projects:
   logo: /images/sections/projects/notas.png
   role: Owner
   timeline: "May 2022 - Present"
-  repo: https://github.com/Madera971003/To-Do-React
-  #url: ""
+  # repo: https://github.com/Madera971003/To-Do-React
+  url: "https://madera971003.github.io/To-Do-React/"
   summary: This project consists of providing the user with administration of their tasks to do.
   tags: ["Hobby", "React", "JavaScript"]
 
@@ -56,6 +56,14 @@ projects:
   url: "https://madera971003.github.io/aprendiendo_a_usar_git/"
   summary: An excellent guide for getting started with Git and GitHub.
   tags: ["Profesional", "Git", "GitHub"]
+
+- name: Unit Test to Platzi Store project
+  logo: /images/sections/projects/platzi.png
+  role: Contributor
+  timeline: "Jul 2022"
+  repo: https://github.com/Madera971003/unit-test-jest-platzi-store
+  summary: In this project I made some unit test. In adition I created some mocks and snapshots.
+  tags: ["Profesional","Hobby", "React", "Jest"]
 
 - name: Curriculum Blog
   logo: /images/sections/projects/blog.png
